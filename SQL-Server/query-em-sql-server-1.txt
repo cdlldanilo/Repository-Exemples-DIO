@@ -1,0 +1,12 @@
+/* PROMPT DE COMANDO  e também no SSMS */
+/* Para saber a data do servidor no sqlserver */
+SELECT GETDATE()
+GO
+
+/* Acessar o principal banco de dados do servidor master */
+USE MASTER
+GO
+
+/* Selecionar todas as tabelas do banco de dados master */
+SELECT * FROM SYS. TABLES
+GO
